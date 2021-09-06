@@ -1,0 +1,154 @@
+/*All общие*/
+body{
+	color:white;
+	background-color: #424242;
+	background-image: url(../img/3/background.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-position: 17% 5%; 
+	font-size: 75%;
+	font-family: arial, verdana, sans-serif;
+}
+main{
+	margin-left: 12px;
+}
+h1,h3{
+	display: none;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+a,a span{
+	color:#FF9638;
+	cursor:help;
+}
+p{
+	margin-top: 0px;
+}
+/*Header*/
+header{
+	width: 100%;
+	height: 84px;
+	background-image: url(../img/3/logo.gif);
+	background-repeat: no-repeat;
+	margin:16px;
+}
+/*Section*/
+section{
+	width: 240px;
+	height: 243px;
+	background-image: url(../img/3/halfscreen-gray.gif);
+	border-top: 1px white solid;
+	position: absolute;
+	top:20px;
+	right: 10px;
+	padding: 10px;
+}
+h4{
+	margin:0px;
+	font-size: 1.2em;
+	font-style:italic;
+}
+/*Aside*/
+aside{
+	width: 198px;
+}
+.aside{
+	background-repeat: no-repeat;
+	background-position:center top; 
+	padding-top: 55px;
+}
+.select_design{
+	background-image: url(../img/3/select.gif);
+}
+.archives{
+	background-image: url(../img/3/select.gif);
+}
+.resources{
+	background-image: url(../img/3/select.gif);
+}
+aside li{
+	list-style-type: none;
+	background-image: url(../img/3/halfscreen-gray.gif);
+	background-repeat: repeat;
+	display: block;
+	margin-top: 2px;
+	padding: 2px;
+}
+aside a{
+	color:white;
+	cursor:pointer;
+}
+
+/*Article*/
+article{
+	line-height: 1.4;
+}
+.one_block{
+	margin:-160px 40px 0px 222px;
+	border-top:solid white 2px;
+	background-image: url(../img/3/about.gif),url(../img/3/about_background.gif);
+	background-repeat: no-repeat;
+	background-position: left,right bottom; 
+	height: 235px;
+	padding-left: 50px;
+}
+.one_text{
+	border-left: solid 1px white;
+	height: 213px;
+	padding: 12px; 
+}
+.two_block{
+	margin-left: 58px;
+	margin:20px 220px 40px 40px;
+	border-top: solid 2px white;
+	padding-right:50px;
+	background-image: url(../img/3/participation.gif),url(../img/3/participation_back.gif);
+	background-repeat: no-repeat;
+	background-position: right,left bottom; 
+	height: 235px;
+}
+.two_text{
+	border-right: solid 1px white; 
+	height: 213px;
+	padding: 12px; 
+}
+.three_block{
+	margin:20px 40px 0px 222px;
+	border-top:solid white 2px;
+	background-image: url(../img/3/benefits.gif),url(../img/3/benefits_back.gif);
+	background-repeat: no-repeat;
+	background-position: left,right bottom; 
+	height: 134px;
+	padding-left: 50px;
+}
+.three_text{
+	border-left:solid 1px white;
+	height: 130px;
+	padding: 12px;
+}
+.four_block{
+	margin-left: 58px;
+	margin:40px 220px 40px 40px;
+	border-top: solid 2px white;
+	padding-right:50px;
+	background-image: url(../img/3/Requirements.gif),url(../img/3/requirements_back.gif);
+	background-repeat: no-repeat;
+	background-position: right,left bottom; 
+	height: 235px;
+}
+.four_text{
+	border-right: solid 1px white; 
+	height: 233px;
+	padding: 12px; 
+}
+/*Footer*/
+footer{
+	text-align: center;
+}
+footer li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+}

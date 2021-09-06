@@ -1,0 +1,122 @@
+body{
+	background-image:url(../img/1/zen-bg.jpg),url(../img/1/blossoms.jpg);
+	background-position:top left,bottom right;
+	background-repeat:no-repeat;
+	margin-left:104px;
+	margin-right:160px;
+	font-size:75%;
+	font-family:georgia serif;
+	color:#555753;
+	
+}
+header{
+	height:88px;
+	background-image:url(../img/1/h1.gif),url(../img/1/h2.gif);
+	background-position:left top,right center;
+	background-repeat:no-repeat;
+	margin-top:24px;
+	
+}
+span{
+	display:none;
+}
+section{
+	width:164px;
+	float:left;
+	padding:16px;
+	font-style:italic;
+	text-align:center;
+	line-height:2;
+	font-size: 1.3em;
+	
+}
+article a{
+	text-decoration: none;
+}
+article a:link{
+	color:#B7A5DF;
+}
+article a:hover{
+	text-decoration: underline;
+	color:#D4CDDC;
+}
+aside{
+	background-image:url(../img/1/cr2.gif),url(../img/1/paper-bg.jpg);
+	background-repeat:no-repeat,repeat-y;
+	background-position:center top,center,center center;
+	position:absolute;
+	top:24px;
+	right:0px;
+	width:134px;
+	padding:130px 8px 8px 8px;
+	
+}
+ul{
+	list-style-type:none;
+	padding-left:4px;
+	font: 10px verdana, sans-serif;
+}
+li{
+	padding-top:8px;
+	padding-bottom:4px;
+	background:transparent url(../img/1/cr1.gif) no-repeat center top;
+}
+article{
+	padding:8px;
+	line-height: 1.5;
+}
+article h3{
+	margin-bottom: 0px;
+	color:#7D775C;
+	font-style: italic;
+}
+aside h3{
+	margin-bottom:0;
+	display: none;
+}
+aside ul:nth-of-type(1):before{
+	content:" ";
+	display: block;
+	width: 100px;
+	height: 20px;
+	background-image: url(../img/1/h3.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100px;
+}
+aside ul:nth-of-type(2):before{
+	content:" ";
+	display: block;
+	width: 100px;
+	height: 20px;
+	background-image: url(../img/1/h5.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 72px;
+}
+aside ul:nth-of-type(3):before{
+	content:" ";
+	display: block;
+	width: 100px;
+	height: 20px;
+	background-image: url(../img/1/h6.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 72px;
+}
+aside a{
+	text-decoration: none;
+	color:#988F5E;
+	font-weight: bold;
+}
+aside a:hover{
+	text-decoration: underline;
+}
+footer{
+	text-align: center;
+}
+footer a{
+	margin: 20px 10px;
+	font-size: 1.1em;
+	font-weight: 600;
+}
